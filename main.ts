@@ -3,7 +3,7 @@
  * weight means higher in the toolbox
  */
 
-//% color="#D4BE15" 
+//% color="#D4BE15"
 namespace fountains {
     //% block="build lava fountain of size $size"
     //% size.defl=8
