@@ -42,13 +42,13 @@ namespace fountains {
             FillOperation.Replace
         )
         blocks.fill(
-            LAVA,
+            WATER,
             posCamera(-size / 2 + 1, 1, 6),
             posCamera(size / 2 - 1, 1, 4 + size),
             FillOperation.Replace
         )
         blocks.fill(
-            LAVA,
+            WATER,
             posCamera(0, 4, 5 + size / 2),
             posCamera(0, 4, 5 + size / 2),
             FillOperation.Replace
