@@ -7,7 +7,7 @@
 namespace fountains {
     //% block="build lava fountain of size $size"
     //% size.defl=8
-    //% size.min=3 size.max=50
+    //% size.min=4 size.max=50
     export function lavaFountain(size: number) {
         blocks.fill(
             NETHERRACK,
