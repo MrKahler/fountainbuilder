@@ -9,7 +9,7 @@ namespace fountains {
     //% size.defl=8
     //% size.min=4 size.max=50
     export function lavaFountain(size: number) {
-        size = size % 2 ? size -1 : size;
+        size = size % 2 ? size - 1 : size;
         blocks.fill(
             NETHERRACK,
             posCamera(-size / 2, 0, 5),
@@ -34,7 +34,7 @@ namespace fountains {
     //% size.defl=8
     //% size.min=4 size.max=50
     export function glassFountain(size: number) {
-        size = size % 2 ? size -1 : size;
+        size = size % 2 ? size - 1 : size;
         blocks.fill(
             GLASS,
             posCamera(-size / 2, 0, 5),
@@ -59,7 +59,7 @@ namespace fountains {
     //% size.defl=8
     //% size.min=4 size.max=50
     export function overgrownFountain(size: number) {
-        size = size % 2 ? size -1 : size;
+        size = size % 2 ? size - 1 : size;
         blocks.fill(
             MOSS_STONE,
             posCamera(-size / 2, 0, 5),
@@ -86,20 +86,20 @@ namespace fountains {
         )
         blocks.fill(
             LEAVES_JUNGLE,
-            posCamera(size/2, 2, 5),
-            posCamera(size/2, 3, 5),
+            posCamera(size / 2, 2, 5),
+            posCamera(size / 2, 3, 5),
             FillOperation.Replace
         )
         blocks.fill(
             LEAVES_JUNGLE,
-            posCamera(size / 2, 2, 5+size),
-            posCamera(size / 2, 3, 5+size),
+            posCamera(size / 2, 2, 5 + size),
+            posCamera(size / 2, 3, 5 + size),
             FillOperation.Replace
         )
         blocks.fill(
             LEAVES_JUNGLE,
-            posCamera(-size / 2, 2, 5+size),
-            posCamera(-size / 2, 3, 5+size),
+            posCamera(-size / 2, 2, 5 + size),
+            posCamera(-size / 2, 3, 5 + size),
             FillOperation.Replace
         )
         blocks.fill(
